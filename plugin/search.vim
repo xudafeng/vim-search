@@ -13,12 +13,8 @@ endif
 
 " define command
 python << EOF
-#coding=utf-8 
 import webbrowser
-import sys
 import urllib
-reload(sys)
-sys.setdefaultencoding('utf8')
 
 engine = 'www.baidu.com'
 url = 'http://' + engine + '/s?wd='
